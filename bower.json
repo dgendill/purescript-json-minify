@@ -1,0 +1,21 @@
+{
+  "name": "purescript-json-minify",
+  "license" : "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dgendill/purescript-json-minify"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "purescript-quickcheck" : "^1.0.0",
+    "purescript-psci-support": "^1.0.0",
+    "purescript-console": "^1.0.0",
+    "purescript-debug" : "^1.0.0"
+  }
+}
