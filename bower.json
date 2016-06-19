@@ -1,11 +1,18 @@
 {
   "name": "purescript-json-minify",
   "license" : "MIT",
+  "authors" : [
+      "Dominick Gendill <dgendill@gmail.com> (http://dgendill.com)",
+      "Kyle Simpson (http://getify.me/)"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "output"
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
   ],
   "repository": {
     "type": "git",
