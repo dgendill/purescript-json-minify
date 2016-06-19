@@ -3,7 +3,7 @@
     "scripts": {
         "clean": "rimraf output && rimraf .pulp-cache",
         "build": "pulp build",
-        "test": "pulp test"
+        "test": "pulp test --main Test.JSON.Minify"
     },
     "devDependencies": {
         "pulp": "^9.0.0",
