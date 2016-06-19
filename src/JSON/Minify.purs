@@ -3,22 +3,6 @@
 
 -- | The original script can be found here: 
 -- | https://github.com/getify/JSON.minify/tree/javascript
--- |
--- | QuickCheck provides a way to write _property-based_ tests.
--- |
--- | The `Arbitrary` and `CoArbitrary` type classes allow us to create
--- | random data with which we can run our tests. This module provides
--- | instances of both classes for PureScript's core data structures,
--- | as well as functions for writing new instances.
--- |
--- | Test suites can use the `quickCheck` and `quickCheckPure` functions
--- | to test properties.
--- |
--- | For example:
--- |
--- | ```purescript
--- | main = quickCheck \n -> n + 1 > n
--- | ```
 module JSON.Minify
   (
     minify
