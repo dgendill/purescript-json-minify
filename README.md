@@ -1,6 +1,6 @@
 # purescript-json-minify
 
-[![Latest release](https://img.shields.io/bower/v/purescript-json-minify.svg](https://github.com/dgendill/purescript-json-minify/releases)
+[![Latest release](https://img.shields.io/bower/v/purescript-json-minify.svg)](https://github.com/dgendill/purescript-json-minify/releases)
 
 [![Build Status](https://travis-ci.org/dgendill/purescript-json-minify.svg?branch=master)](https://travis-ci.org/dgendill/purescript-json-minify)
 
