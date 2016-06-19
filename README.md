@@ -1,5 +1,7 @@
 # purescript-json-minify
 
+[![Latest release](https://img.shields.io/bower/v/purescript-json-minify.svg](https://github.com/dgendill/purescript-json-minify/releases)
+
 [![Build Status](https://travis-ci.org/dgendill/purescript-json-minify.svg?branch=master)](https://travis-ci.org/dgendill/purescript-json-minify)
 
 This module is a foreign interface to the JSON.minify function written by [Kyle Simpson](http://getify.me/). It's only purpose is to remove comments and whitespace from JSON data.
