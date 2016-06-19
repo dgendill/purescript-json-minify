@@ -1,7 +1,9 @@
 language: node_js
 node_js: 6
+install:
+  - npm install -g bower
+  - npm install
 script:
-  - bower install --production
-  - npm run build
   - bower install
+  - npm run build
   - npm run test
