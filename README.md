@@ -33,7 +33,7 @@ To run the tests install the package locally.
 ```
 git clone https://github.com/dgendill/purescript-json-minify
 bower install
-npm rum test
+npm run test
 ```
 
 Version v1.0.1, and older depends on purescript v0.9.2  You can use [psvm](https://www.npmjs.com/package/psvm) to switch between purescript versions.
