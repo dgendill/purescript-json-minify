@@ -41,5 +41,13 @@ git clone https://github.com/dgendill/purescript-json-minify
 bower install
 npm run test
 ```
+## Compatibility
 
-Version v1.0.1, and older depends on purescript v0.9.2  You can use [psvm](https://www.npmjs.com/package/psvm) to switch between purescript versions.
+| Purescript | purescript-json-minify |
+-----------------------------------------------
+| v0.9.2      | v1.x.x
+| v0.9.3      | v1.x.x
+| v0.10.1     | v2.x.x
+| v0.10.2     | v2.x.x
+
+You can use [psvm](https://www.npmjs.com/package/psvm) to switch between purescript versions.
