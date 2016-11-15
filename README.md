@@ -45,9 +45,12 @@ npm run test
 
 | Purescript | purescript-json-minify |
 |------------|------------------------|
-| v0.9.2     | v1.x.x |
-| v0.9.3     | v1.x.x |
-| v0.10.1    | v2.x.x |
 | v0.10.2    | v2.x.x |
+| v0.10.1    | v2.x.x |
+| v0.9.3     | v1.x.x |
+| v0.9.2     | v1.x.x |
+
+
+
 
 You can use [psvm](https://www.npmjs.com/package/psvm) to switch between purescript versions.
