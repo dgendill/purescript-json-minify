@@ -3,9 +3,5 @@
     "scripts": {
         "build": "pulp build",
         "test": "pulp test --main Test.JSON.Minify"
-    },
-    "devDependencies": {
-        "pulp": "^9.0.0",
-        "purescript": "^0.10.1"
     }
 }
