@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/dgendill/purescript-json-minify.svg?branch=master)](https://travis-ci.org/dgendill/purescript-json-minify)
 
 * [Documentation](#documentation)
+* [Example](#example)
 * [Tests](#tests)
 * [Compatibility](#compatibility)
 
