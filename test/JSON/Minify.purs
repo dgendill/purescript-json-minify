@@ -2,10 +2,9 @@ module Test.JSON.Minify where
 
 import Prelude
 import Control.Monad.Eff (Eff)
-import Control.Monad.Eff.Console (CONSOLE)
+import Control.Monad.Eff.Console (CONSOLE, log)
 import Control.Monad.Eff.Exception (EXCEPTION)
 import Control.Monad.Eff.Random (RANDOM)
-import Debug.Trace (trace)
 import JSON.Minify (minify)
 import Test.QuickCheck (quickCheck, Result, (===))
 
@@ -31,16 +30,16 @@ lineComments3 = ((minify i) === o)
     o = "{test:\"m\"}"
 
 
-main :: forall e. Eff ( console :: CONSOLE, random :: RANDOM, err :: EXCEPTION | e) Unit
+main :: forall e. Eff ( console :: CONSOLE, random :: RANDOM, exception :: EXCEPTION | e) Unit
 main = do
-    trace "minify should remove */ block comments */ and whitespace." \_ ->
+    log "minify should remove */ block comments */ and whitespace."
     quickCheck blockComments1
 
-    trace "(1) minify should remove // line comments and whitespace." \_ ->
+    log "(1) minify should remove // line comments and whitespace."
     quickCheck lineComments1
 
-    trace "(2) minify should remove // line comments and whitespace." \_ ->
+    log "(2) minify should remove // line comments and whitespace."
     quickCheck lineComments2
 
-    trace "(3) minify should remove // line comments and whitespace." \_ ->
+    log "(3) minify should remove // line comments and whitespace."
     quickCheck lineComments3

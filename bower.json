@@ -2,7 +2,7 @@
   "name": "purescript-json-minify",
   "license" : "MIT",
   "authors" : [
-      "Dominick Gendill <dgendill@gmail.com> (http://dgendill.com)",
+      "Dominick Gendill <dgendill@gmail.com> (https://dgendill.com)",
       "Kyle Simpson (http://getify.me/)"
   ],
   "ignore": [
@@ -22,11 +22,12 @@
     "type": "git",
     "url": "git://github.com/dgendill/purescript-json-minify"
   },
-  "dependencies": {},
+  "dependencies": {
+    "purescript-prelude" : "^3.0.0"
+  },
   "devDependencies": {
-    "purescript-quickcheck" : "3.1.0",
-    "purescript-psci-support": "2.0.0",
-    "purescript-console": "2.0.0",
-    "purescript-debug" : "2.0.0"
+    "purescript-quickcheck" : "^4.0.0",
+    "purescript-psci-support": "^3.0.0",
+    "purescript-console": "^3.0.0"
   }
 }
