@@ -8,7 +8,7 @@
 * [Tests](#tests)
 * [Compatibility](#compatibility)
 
-This module is a foreign interface to the `JSON.minify` function written by [Kyle Simpson](http://getify.me/). It's only purpose is to remove comments and whitespace from JSON data that has comments interspersed, e.g. JSON config files.
+This module is a foreign interface to the `JSON.minify` function written by [Kyle Simpson](http://getify.me/). It's only purpose is to remove comments and whitespace from JSON data, i.e. from JSON config files.
 
 The original javascript source can be found [here](https://github.com/getify/JSON.minify/tree/javascript).
 
